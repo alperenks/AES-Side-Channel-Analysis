@@ -33,18 +33,20 @@ The attack follows these core engineering steps:
 *The raw power consumption signal captured during the encryption process.*
 
 ![Power Trace](screenshots/power_trace.png)
+<img width="1017" height="479" alt="power_traces" src="https://github.com/user-attachments/assets/e51e9112-667b-4845-b086-fec1eaaac366" />
 
 ### 2. Attack Success (Key Recovery)
 *The graph below shows the differential spike for the correct key byte. The highest peak indicates the correct hexadecimal value.*
 
 ![Attack Result](screenshots/correlation_graph.png)
-
+<img width="1009" height="557" alt="correlation_graph" src="https://github.com/user-attachments/assets/6ca80919-d5bb-43d8-b396-b5057994033d" />
 
 ## 🚀 Installation & Usage
 
 ### Requirements
 * Python 3.8+
 * Jupyter Notebook
+
 * NumPy, Matplotlib, SciPy
 
 ### Setup
